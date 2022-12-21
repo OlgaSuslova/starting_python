@@ -6,3 +6,11 @@
 # - [2, 3, 4, 5, 6] => [12, 15, 16];
 # - [2, 3, 5, 6] => [12, 15]
 
+list = [2, 3, 4, 5, 6]
+
+list_product = []
+
+for i in range(int(len(list)/2 + 1)):
+    list_product.append(list[i] * list[len(list) - i - 1])
+    
+print(f'{list} => {list_product}')
