@@ -23,7 +23,14 @@
 #     if type(i)==int:
 #         print(a.index(i))
 
+# 20. Задайте список. Напишите программу, которая определит, присутствует ли в заданном списке строк некое число.
 
+# spisok = ['qwe','qweqw',"3",'weqwe']
+# flag = False
+# for item in spisok:
+#     if isinstance(item,int):
+#         flag = True
+# print(flag)
 
 
 
