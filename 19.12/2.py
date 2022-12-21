@@ -10,7 +10,13 @@ list = [2, 3, 4, 5, 6]
 
 list_product = []
 
-for i in range(int(len(list)/2 + 1)):
-    list_product.append(list[i] * list[len(list) - i - 1])
+if len(list)%2 == 0:
+    for i in range(int(len(list)/2)):
+        list_product.append(list[i] * list[len(list) - i - 1])
+
+else:
+    for i in range(int(len(list)/2 + 1)):
+        list_product.append(list[i] * list[len(list) - i - 1])
+
     
 print(f'{list} => {list_product}')
