@@ -6,3 +6,14 @@
 # - 3 -> 11
 # - 2 -> 10
 
+number = int(input('Введите число: '))
+
+n = number
+
+result = ''
+
+while n != 0:
+    result += str(n%2)
+    n //= 2
+
+print(f'{number} -> {result[::-1]}')
