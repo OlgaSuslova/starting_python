@@ -9,3 +9,11 @@ d = input('Введите степень округления в формате 
 d = d[2:len(d)]
 print(round(math.pi,len(d)))
 
+
+
+#Вычислить число c заданной точностью d
+#при $d = 0.001, π = 3.141.$
+# import math
+# n = input()
+# length = len(n.split(".")[1])
+# print(round(math.pi,length))

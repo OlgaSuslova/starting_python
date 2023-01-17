@@ -3,7 +3,15 @@
 
 
 a = [1, 3, 4, 5, 5, 6, 7, 8, 9, 9]
+list_num = []
 
-b = set(a)
+# b = set(a)
 
-print(b)
+# print(b)
+
+for i in a:
+    if a.count(i) == 1:
+        list_num.append(i)
+
+print(list_num)
+
